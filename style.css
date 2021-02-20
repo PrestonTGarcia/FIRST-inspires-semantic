@@ -1,0 +1,15 @@
+.borderless.ui.acc.menu{
+  box-shadow: none;
+  border: none;
+}
+
+.borderless.ui.nav.menu{
+  box-shadow: none;
+  border: none;
+}
+
+.compact.blue.ui.button.item{
+  background-color: #10578E;
+  color: white;
+
+}
