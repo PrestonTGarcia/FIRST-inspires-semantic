@@ -21,3 +21,18 @@ body{
 .compact.ui.circular.long.blue.button{
   width: 300px;
 }
+
+.ui.fluid.image img{
+  height: 500px;
+}
+
+h1{
+  color: white;
+  font-weight: bold;
+  font-size: 52px;
+}
+
+.over-image{
+  position: absolute;
+  bottom: 50px;
+}
