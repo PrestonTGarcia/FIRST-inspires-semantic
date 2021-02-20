@@ -1,19 +1,17 @@
-html{
+body{
   background-color: #EDEDED;
 }
 
 .borderless.ui.acc.menu{
   box-shadow: none;
   border: none;
+  background-color: #EDEDED;
 }
 
 .borderless.ui.nav.menu{
   box-shadow: none;
   border: none;
-}
-
-.ui.fluid.image{
-  height: 75%;
+  background-color: #EDEDED;
 }
 
 .ui.circular.blue.button{
