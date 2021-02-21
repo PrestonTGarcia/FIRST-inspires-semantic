@@ -26,18 +26,32 @@ body{
   height: 500px;
 }
 
-h1{
-  color: white;
-  font-weight: bold;
-  font-size: 52px;
-}
 
 .mid{
   filter: brightness(50%);
+}
+
+.text-over-image{
+  color: white;
+  font-weight: bold;
+  font-size: 52px;
 }
 
 .over-image{
   position: absolute;
   bottom: 50px;
   opacity: 100%;
+}
+
+.ui.left.floated.image{
+  height: 100px;
+}
+.ui.centered.grid.container{
+  margin: 10px;
+}
+
+.ui.blue.button{
+  padding: 10px 15px;
+  color: white;
+  background: #0065B3;
 }
