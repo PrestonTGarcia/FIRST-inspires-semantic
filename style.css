@@ -2,36 +2,50 @@ body{
   background-color: #EDEDED;
 }
 
-.ui.menu .item{
+.ui.left.floated.nav.image{
+  height: 35px;
+}
+
+.ui.dropdown{
+  font-size: 16px;
   font-weight: 600;
-  font-family: Roboto, sans-serif;
+  margin-top: 9px;
   color: #4D4D4D;
-  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.search.icon{
+  margin-top: 9px;
+}
+
+.ui.menu .item{
+  color: #4D4D4D;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
 }
 
 .borderless.ui.acc.menu{
   box-shadow: none;
   border: none;
   background-color: #EDEDED;
-}
-
-.borderless.ui.nav.menu{
-  box-shadow: none;
-  border: none;
-  background-color: #EDEDED;
-  font-size: 16px;
+  margin-right: 20px;
 }
 
 .ui.circular.blue.button{
   background-color: #125085;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-weight: 200;
+  font-size: 16px;
 }
 
-.compact.ui.circular.long.blue.button{
-  width: 300px;
+.search.icon{
+  color: #4D4D4D;
 }
 
 .ui.fluid.image img{
-  height: 500px;
+  height: 510px;
 }
 
 
@@ -49,7 +63,7 @@ body{
 
 .over-image{
   position: absolute;
-  bottom: 100px;
+  bottom: 120px;
   opacity: 100%;
 }
 
@@ -69,3 +83,8 @@ body{
   color: white;
   background: #0065B3;
 }
+
+.ui.floated.left.world.image{
+  margin-top: 20px;
+}
+
