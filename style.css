@@ -2,6 +2,13 @@ body{
   background-color: #EDEDED;
 }
 
+.ui.menu .item{
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  color: #4D4D4D;
+  font-size: 14px;
+}
+
 .borderless.ui.acc.menu{
   box-shadow: none;
   border: none;
@@ -12,6 +19,7 @@ body{
   box-shadow: none;
   border: none;
   background-color: #EDEDED;
+  font-size: 16px;
 }
 
 .ui.circular.blue.button{
@@ -35,11 +43,13 @@ body{
   color: white;
   font-weight: bold;
   font-size: 52px;
+  letter-spacing: 2px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .over-image{
   position: absolute;
-  bottom: 50px;
+  bottom: 100px;
   opacity: 100%;
 }
 
@@ -47,7 +57,11 @@ body{
   height: 100px;
 }
 .ui.centered.grid.container{
-  margin: 10px;
+  margin: 5px;
+}
+
+.bottom-message{
+  font-family: "Helvetica", serif;
 }
 
 .ui.blue.button{
