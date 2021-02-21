@@ -32,7 +32,12 @@ h1{
   font-size: 52px;
 }
 
+.mid{
+  filter: brightness(50%);
+}
+
 .over-image{
   position: absolute;
   bottom: 50px;
+  opacity: 100%;
 }
